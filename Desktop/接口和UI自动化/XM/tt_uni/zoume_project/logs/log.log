@@ -1,0 +1,1091 @@
+2022-05-16 22:21:57,126--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,164--test_verify.py-52 --ERROR:用例---【】---执行失败
+2022-05-16 22:21:57,164--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:21:57,215--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,288--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,329--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:44:16,130--test_verify.py-59 --INFO:用例---【手机号为空】---执行通过
+2022-05-16 22:44:16,233--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:44:16,233--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:44:16,304--test_verify.py-59 --INFO:用例---【手机号长度10位】---执行通过
+2022-05-16 22:44:16,417--test_verify.py-59 --INFO:用例---【手机号长度12位】---执行通过
+2022-05-16 22:44:16,531--test_verify.py-59 --INFO:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:45:24,839--test_verify.py-59 --INFO:用例---【手机号为空】---执行通过
+2022-05-16 22:45:25,054--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:45:25,054--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:45:25,149--test_verify.py-59 --INFO:用例---【手机号长度10位】---执行通过
+2022-05-16 22:45:25,235--test_verify.py-59 --INFO:用例---【手机号长度12位】---执行通过
+2022-05-16 22:45:25,330--test_verify.py-59 --INFO:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:50:38,615--test_verify.py-59 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:50:38,748--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:50:38,748--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:50:38,810--test_verify.py-59 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:50:38,900--test_verify.py-59 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:50:38,999--test_verify.py-59 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:52:55,295--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:52:55,391--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:52:55,391--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:52:55,489--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:52:55,593--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:52:55,684--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:57:03,519--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:57:03,599--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:57:03,599--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:57:03,678--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:57:03,795--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:57:03,894--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:57:42,180--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:57:42,256--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:57:42,256--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:57:43,482--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:57:43,600--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:57:43,719--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:06:00,052--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:11:50,902--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:11:50,959--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:11:51,039--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:11:51,088--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:12:54,007--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:12:54,055--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 23:12:54,055--test_verify.py-56 --ERROR:1 != 3
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+2022-05-16 23:12:54,108--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:12:54,172--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:12:54,243--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:34:32,024--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:34:32,086--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:34:32,137--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:34:32,178--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:35:17,765--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:35:17,821--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:35:17,861--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:35:18,174--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:36:15,024--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:36:15,326--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-16 23:36:15,402--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:36:15,444--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:36:15,564--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:38:29,840--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:38:29,993--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-16 23:38:30,033--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:38:30,081--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:38:30,130--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-17 17:57:54,576--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-17 17:57:54,974--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-17 17:57:55,053--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-17 17:57:55,107--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-17 17:57:55,158--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 13:44:37,307--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 13:44:37,654--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 13:44:37,654--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 13:44:37,709--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 13:44:37,766--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 13:44:37,823--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:03:24,700--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:03:25,105--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:03:25,105--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:03:25,153--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:03:25,202--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:03:25,250--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:13:50,470--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:13:50,893--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:13:50,893--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:13:50,952--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:13:51,011--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:13:51,070--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:15:45,122--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:15:45,388--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:15:45,388--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:15:45,449--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:15:45,508--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:15:45,566--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:39:42,671--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:39:43,189--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:39:43,189--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:39:43,252--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:39:43,315--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:39:43,382--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:43:27,258--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:43:27,658--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:43:27,658--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:43:27,723--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:43:27,785--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:43:27,845--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:50:42,992--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:50:44,010--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:50:44,010--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:50:44,080--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:50:44,142--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:50:44,203--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:51:45,863--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:51:46,130--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:51:46,130--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:51:46,187--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:51:46,251--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:51:46,311--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:01:04,938--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:01:05,286--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:01:05,286--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:01:05,339--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:01:05,398--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:01:05,453--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:01:33,813--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:01:34,001--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:01:34,001--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:01:34,061--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:01:34,116--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:01:34,172--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:02:08,881--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:02:09,187--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:02:09,187--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:02:09,243--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:02:09,301--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:02:09,355--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:05:44,336--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:05:44,697--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:05:44,697--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:05:44,753--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:05:44,813--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:05:44,868--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:10:55,814--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:10:56,214--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:10:56,214--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:10:56,269--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:10:56,333--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:10:56,394--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:14:56,989--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:14:57,378--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:14:57,378--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:14:57,455--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:14:57,510--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:14:57,563--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:16:50,853--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:16:51,198--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:16:51,198--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:16:51,471--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:16:51,749--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:16:52,010--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:22:06,785--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:22:07,161--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-06 15:22:07,234--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:22:07,304--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:22:07,377--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-22 10:43:52,712--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-22 10:43:53,226--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-22 10:43:53,297--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-22 10:43:53,382--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-22 10:43:53,449--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-22 10:47:29,190--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-22 10:47:29,499--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-22 10:47:29,550--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-22 10:47:29,610--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-22 10:47:29,665--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-22 11:03:09,656--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-22 11:03:10,089--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-22 11:03:10,144--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-22 11:03:10,190--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-22 11:03:10,243--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-22 11:37:44,684--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-22 11:37:45,159--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-22 11:37:45,232--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-22 11:37:45,298--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-22 11:37:45,353--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-22 15:35:53,825--test_new.py-54 --ERROR:用例---【新增新鲜事--内容为空，发布失败】---执行失败
+2022-06-22 15:35:53,826--test_new.py-58 --ERROR: :: 发布失败 != 请求成功
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_new.py", line 50, in test_new
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 发布失败 != 请求成功
+2022-06-22 15:38:32,844--test_new.py-54 --ERROR:用例---【新增新鲜事--内容为空，发布失败】---执行失败
+2022-06-22 15:38:32,844--test_new.py-58 --ERROR: :: 发布失败 != 请求成功
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_new.py", line 50, in test_new
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 发布失败 != 请求成功
+2022-06-22 15:47:05,403--test_new.py-63 --WARNING:用例---【新增新鲜事成功】---执行通过
+2022-06-22 15:47:05,476--test_new.py-54 --ERROR:用例---【新增新鲜事--内容为空，发布失败】---执行失败
+2022-06-22 15:47:05,476--test_new.py-58 --ERROR: :: 发布失败 != 请求成功
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_new.py", line 50, in test_new
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 发布失败 != 请求成功
+2022-06-22 15:47:05,548--test_new.py-63 --WARNING:用例---【新增新鲜事--文案很长发布成功】---执行通过
+2022-06-22 15:50:13,027--test_new.py-63 --WARNING:用例---【新增新鲜事成功】---执行通过
+2022-06-22 15:50:13,109--test_new.py-54 --ERROR:用例---【新增新鲜事--内容为空，发布失败】---执行失败
+2022-06-22 15:50:13,110--test_new.py-58 --ERROR:'发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_new.py", line 50, in test_new
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+
+2022-06-22 15:50:13,189--test_new.py-63 --WARNING:用例---【新增新鲜事--文案很长发布成功】---执行通过
+2022-06-22 15:50:13,300--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-22 15:50:13,777--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-22 15:50:13,825--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-22 15:50:13,882--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-22 15:50:13,937--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-24 15:56:51,077--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级号重复]---执行失败
+2022-06-24 15:56:51,080--test_class.py-84 --ERROR: :: 该班级号已被创建 != 班级名称不能大于15个字符
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级号已被创建' != '班级名称不能大于15个字符'
+- 该班级号已被创建
++ 班级名称不能大于15个字符
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级号已被创建 != 班级名称不能大于15个字符
+2022-06-24 15:56:51,157--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级名称名字重复]---执行失败
+2022-06-24 15:56:51,157--test_class.py-84 --ERROR: :: 该班级名称已被创建 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级名称已被创建' != '创建者云信信息异常'
+- 该班级名称已被创建
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级名称已被创建 != 创建者云信信息异常
+2022-06-24 15:56:51,212--test_class.py-83 --ERROR:用例--[创建班级-一个用户创建多个班级名称]---执行失败
+2022-06-24 15:56:51,212--test_class.py-84 --ERROR: :: 一个用户只能创建一个班级 != 班级名称不能大于15个字符
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '一个用户只能创建一个班级' != '班级名称不能大于15个字符'
+- 一个用户只能创建一个班级
++ 班级名称不能大于15个字符
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 一个用户只能创建一个班级 != 班级名称不能大于15个字符
+2022-06-24 15:56:51,279--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功（UserID）用过就不能用了，需要动态变量]---执行失败
+2022-06-24 15:56:51,279--test_class.py-84 --ERROR: :: 200 != 400
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 80, in test_Addclass
+    self.assertEqual(excepted['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 400
+2022-06-24 16:08:22,469--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级号重复（忽略）]---执行失败
+2022-06-24 16:08:22,470--test_class.py-84 --ERROR: :: 该班级号已被创建 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级号已被创建' != '创建者云信信息异常'
+- 该班级号已被创建
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级号已被创建 != 创建者云信信息异常
+2022-06-24 16:08:22,571--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级名称名字重复（忽略）]---执行失败
+2022-06-24 16:08:22,571--test_class.py-84 --ERROR: :: 该班级名称已被创建 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级名称已被创建' != '创建者云信信息异常'
+- 该班级名称已被创建
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级名称已被创建 != 创建者云信信息异常
+2022-06-24 16:08:22,622--test_class.py-83 --ERROR:用例--[创建班级-一个用户创建多个班级名称]---执行失败
+2022-06-24 16:08:22,622--test_class.py-84 --ERROR: :: 一个用户只能创建一个班级 != 你已经加入了一个班级
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '一个用户只能创建一个班级' != '你已经加入了一个班级'
+- 一个用户只能创建一个班级
++ 你已经加入了一个班级
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 一个用户只能创建一个班级 != 你已经加入了一个班级
+2022-06-24 16:08:22,673--test_class.py-83 --ERROR:用例--[创建班级-班级名称为空]---执行失败
+2022-06-24 16:08:22,673--test_class.py-84 --ERROR: :: 班级名称不可为空 != 班级名称不能为空
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '班级名称不可为空' != '班级名称不能为空'
+- 班级名称不可为空
+?      ^
++ 班级名称不能为空
+?      ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 班级名称不可为空 != 班级名称不能为空
+2022-06-24 16:08:22,726--test_class.py-87 --INFO:用例---[创建班级-班级名称字符大于15个字符]---执行通过
+2022-06-24 16:08:22,791--test_class.py-83 --ERROR:用例--[创建班级-班级号为空]---执行失败
+2022-06-24 16:08:22,791--test_class.py-84 --ERROR: :: 班级号不可为空 != 班号不能为空
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '班级号不可为空' != '班号不能为空'
+- 班级号不可为空
+?  -  ^
++ 班号不能为空
+?    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 班级号不可为空 != 班号不能为空
+2022-06-24 16:08:22,852--test_class.py-83 --ERROR:用例--[创建班级-班级号--为中文或其他特殊字符（非数值）]---执行失败
+2022-06-24 16:08:22,852--test_class.py-84 --ERROR: :: 班级号不能大于15个字符 != 你已经加入了一个班级
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '班级号不能大于15个字符' != '你已经加入了一个班级'
+- 班级号不能大于15个字符
++ 你已经加入了一个班级
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 班级号不能大于15个字符 != 你已经加入了一个班级
+2022-06-24 16:08:22,902--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功（UserID）用过就不能用了，需要动态变量，忽略]---执行失败
+2022-06-24 16:08:22,902--test_class.py-84 --ERROR: :: 200 != 400
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 80, in test_Addclass
+    self.assertEqual(excepted['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 400
+2022-06-24 16:12:59,813--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级号重复（忽略）]---执行失败
+2022-06-24 16:12:59,814--test_class.py-84 --ERROR: :: 该班级号已被创建 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级号已被创建' != '创建者云信信息异常'
+- 该班级号已被创建
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级号已被创建 != 创建者云信信息异常
+2022-06-24 16:12:59,875--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级名称名字重复（忽略）]---执行失败
+2022-06-24 16:12:59,875--test_class.py-84 --ERROR: :: 该班级名称已被创建 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级名称已被创建' != '创建者云信信息异常'
+- 该班级名称已被创建
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 该班级名称已被创建 != 创建者云信信息异常
+2022-06-24 16:12:59,939--test_class.py-83 --ERROR:用例--[创建班级-一个用户创建多个班级名称]---执行失败
+2022-06-24 16:12:59,939--test_class.py-84 --ERROR: :: 一个用户只能创建一个班级 != 你已经加入了一个班级
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '一个用户只能创建一个班级' != '你已经加入了一个班级'
+- 一个用户只能创建一个班级
++ 你已经加入了一个班级
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 一个用户只能创建一个班级 != 你已经加入了一个班级
+2022-06-24 16:13:00,002--test_class.py-87 --INFO:用例---[创建班级-班级名称为空]---执行通过
+2022-06-24 16:13:00,061--test_class.py-87 --INFO:用例---[创建班级-班级名称字符大于15个字符]---执行通过
+2022-06-24 16:13:00,122--test_class.py-87 --INFO:用例---[创建班级-班级号为空]---执行通过
+2022-06-24 16:13:00,177--test_class.py-83 --ERROR:用例--[创建班级-班级号--为中文或其他特殊字符（非数值）]---执行失败
+2022-06-24 16:13:00,177--test_class.py-84 --ERROR: :: 班级号不能大于15个字符 != 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '班级号不能大于15个字符' != '创建者云信信息异常'
+- 班级号不能大于15个字符
++ 创建者云信信息异常
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 班级号不能大于15个字符 != 创建者云信信息异常
+2022-06-24 16:13:00,227--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功，用户id为空]---执行失败
+2022-06-24 16:13:00,227--test_class.py-84 --ERROR: :: 用户信息为空，不可创建 != 创建人不能为空
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户信息为空，不可创建' != '创建人不能为空'
+- 用户信息为空，不可创建
++ 创建人不能为空
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 用户信息为空，不可创建 != 创建人不能为空
+2022-06-24 16:13:00,293--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功（UserID）用过就不能用了，需要动态变量，忽略]---执行失败
+2022-06-24 16:13:00,293--test_class.py-84 --ERROR: :: 200 != 400
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 80, in test_Addclass
+    self.assertEqual(excepted['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 200 != 400
+2022-06-24 16:13:23,995--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级号重复（忽略）]---执行失败
+2022-06-24 16:13:23,995--test_class.py-84 --ERROR:'该班级号已被创建' != '创建者云信信息异常'
+- 该班级号已被创建
++ 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级号已被创建' != '创建者云信信息异常'
+- 该班级号已被创建
++ 创建者云信信息异常
+
+2022-06-24 16:13:24,064--test_class.py-83 --ERROR:用例--[创建班级-不同用户创建班级名称名字重复（忽略）]---执行失败
+2022-06-24 16:13:24,064--test_class.py-84 --ERROR:'该班级名称已被创建' != '创建者云信信息异常'
+- 该班级名称已被创建
++ 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '该班级名称已被创建' != '创建者云信信息异常'
+- 该班级名称已被创建
++ 创建者云信信息异常
+
+2022-06-24 16:13:24,115--test_class.py-83 --ERROR:用例--[创建班级-一个用户创建多个班级名称]---执行失败
+2022-06-24 16:13:24,115--test_class.py-84 --ERROR:'一个用户只能创建一个班级' != '你已经加入了一个班级'
+- 一个用户只能创建一个班级
++ 你已经加入了一个班级
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '一个用户只能创建一个班级' != '你已经加入了一个班级'
+- 一个用户只能创建一个班级
++ 你已经加入了一个班级
+
+2022-06-24 16:13:24,173--test_class.py-87 --INFO:用例---[创建班级-班级名称为空]---执行通过
+2022-06-24 16:13:24,225--test_class.py-87 --INFO:用例---[创建班级-班级名称字符大于15个字符]---执行通过
+2022-06-24 16:13:24,281--test_class.py-87 --INFO:用例---[创建班级-班级号为空]---执行通过
+2022-06-24 16:13:24,338--test_class.py-83 --ERROR:用例--[创建班级-班级号--为中文或其他特殊字符（非数值）]---执行失败
+2022-06-24 16:13:24,338--test_class.py-84 --ERROR:'班级号不能大于15个字符' != '创建者云信信息异常'
+- 班级号不能大于15个字符
++ 创建者云信信息异常
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '班级号不能大于15个字符' != '创建者云信信息异常'
+- 班级号不能大于15个字符
++ 创建者云信信息异常
+
+2022-06-24 16:13:24,393--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功，用户id为空]---执行失败
+2022-06-24 16:13:24,393--test_class.py-84 --ERROR:'用户信息为空，不可创建' != '创建人不能为空'
+- 用户信息为空，不可创建
++ 创建人不能为空
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 81, in test_Addclass
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '用户信息为空，不可创建' != '创建人不能为空'
+- 用户信息为空，不可创建
++ 创建人不能为空
+
+2022-06-24 16:13:24,462--test_class.py-83 --ERROR:用例--[创建班级基础信息-成功（UserID）用过就不能用了，需要动态变量，忽略]---执行失败
+2022-06-24 16:13:24,463--test_class.py-84 --ERROR:200 != 400
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_class.py", line 80, in test_Addclass
+    self.assertEqual(excepted['code'], res['code'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 400
+2022-06-24 16:13:24,640--test_new.py-63 --WARNING:用例---【新增新鲜事成功】---执行通过
+2022-06-24 16:13:24,721--test_new.py-54 --ERROR:用例---【新增新鲜事--内容为空，发布失败】---执行失败
+2022-06-24 16:13:24,721--test_new.py-58 --ERROR:'发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+Traceback (most recent call last):
+  File "/Users/tingting/Desktop/接口和UI自动化/XM/tt_uni/zoume_project/testcases/test_new.py", line 50, in test_new
+    self.assertEqual(excepted['message'], res['message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '发布失败' != '请求成功'
+- 发布失败
++ 请求成功
+
+2022-06-24 16:13:24,809--test_new.py-63 --WARNING:用例---【新增新鲜事--文案很长发布成功】---执行通过

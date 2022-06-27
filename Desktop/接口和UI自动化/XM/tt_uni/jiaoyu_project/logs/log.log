@@ -1,0 +1,455 @@
+2022-05-16 22:21:57,126--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,164--test_verify.py-52 --ERROR:用例---【】---执行失败
+2022-05-16 22:21:57,164--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:21:57,215--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,288--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:21:57,329--test_verify.py-59 --INFO:用例---【】---执行通过
+2022-05-16 22:44:16,130--test_verify.py-59 --INFO:用例---【手机号为空】---执行通过
+2022-05-16 22:44:16,233--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:44:16,233--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:44:16,304--test_verify.py-59 --INFO:用例---【手机号长度10位】---执行通过
+2022-05-16 22:44:16,417--test_verify.py-59 --INFO:用例---【手机号长度12位】---执行通过
+2022-05-16 22:44:16,531--test_verify.py-59 --INFO:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:45:24,839--test_verify.py-59 --INFO:用例---【手机号为空】---执行通过
+2022-05-16 22:45:25,054--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:45:25,054--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:45:25,149--test_verify.py-59 --INFO:用例---【手机号长度10位】---执行通过
+2022-05-16 22:45:25,235--test_verify.py-59 --INFO:用例---【手机号长度12位】---执行通过
+2022-05-16 22:45:25,330--test_verify.py-59 --INFO:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:50:38,615--test_verify.py-59 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:50:38,748--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:50:38,748--test_verify.py-54 --ERROR:1 != 3
+2022-05-16 22:50:38,810--test_verify.py-59 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:50:38,900--test_verify.py-59 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:50:38,999--test_verify.py-59 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:52:55,295--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:52:55,391--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:52:55,391--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:52:55,489--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:52:55,593--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:52:55,684--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:57:03,519--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:57:03,599--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:57:03,599--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:57:03,678--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:57:03,795--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:57:03,894--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 22:57:42,180--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 22:57:42,256--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 22:57:42,256--test_verify.py-56 --ERROR: :: 1 != 3
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 3
+2022-05-16 22:57:43,482--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 22:57:43,600--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 22:57:43,719--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:06:00,052--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:11:50,902--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:11:50,959--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:11:51,039--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:11:51,088--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:12:54,007--test_verify.py-61 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:12:54,055--test_verify.py-52 --ERROR:用例---【正确的手机号】---执行失败
+2022-05-16 23:12:54,055--test_verify.py-56 --ERROR:1 != 3
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/py35_21day_project/testcases/test_verify.py", line 47, in test_verify
+    self.assertEqual(excepted['Code'], res['Code'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 3
+2022-05-16 23:12:54,108--test_verify.py-61 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:12:54,172--test_verify.py-61 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:12:54,243--test_verify.py-61 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:34:32,024--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:34:32,086--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:34:32,137--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:34:32,178--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:35:17,765--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:35:17,821--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:35:17,861--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:35:18,174--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:36:15,024--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:36:15,326--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-16 23:36:15,402--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:36:15,444--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:36:15,564--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-16 23:38:29,840--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-16 23:38:29,993--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-16 23:38:30,033--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-16 23:38:30,081--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-16 23:38:30,130--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-05-17 17:57:54,576--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-05-17 17:57:54,974--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-05-17 17:57:55,053--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-05-17 17:57:55,107--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-05-17 17:57:55,158--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 13:44:37,307--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 13:44:37,654--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 13:44:37,654--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 13:44:37,709--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 13:44:37,766--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 13:44:37,823--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:03:24,700--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:03:25,105--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:03:25,105--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:03:25,153--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:03:25,202--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:03:25,250--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:13:50,470--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:13:50,893--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:13:50,893--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:13:50,952--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:13:51,011--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:13:51,070--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:15:45,122--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:15:45,388--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:15:45,388--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:15:45,449--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:15:45,508--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:15:45,566--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:39:42,671--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:39:43,189--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:39:43,189--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:39:43,252--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:39:43,315--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:39:43,382--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:43:27,258--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:43:27,658--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:43:27,658--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:43:27,723--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:43:27,785--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:43:27,845--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:50:42,992--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:50:44,010--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:50:44,010--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:50:44,080--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:50:44,142--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:50:44,203--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 14:51:45,863--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 14:51:46,130--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 14:51:46,130--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 14:51:46,187--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 14:51:46,251--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 14:51:46,311--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:01:04,938--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:01:05,286--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:01:05,286--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:01:05,339--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:01:05,398--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:01:05,453--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:01:33,813--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:01:34,001--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:01:34,001--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:01:34,061--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:01:34,116--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:01:34,172--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:02:08,881--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:02:09,187--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:02:09,187--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:02:09,243--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:02:09,301--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:02:09,355--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:05:44,336--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:05:44,697--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:05:44,697--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:05:44,753--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:05:44,813--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:05:44,868--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:10:55,814--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:10:56,214--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:10:56,214--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:10:56,269--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:10:56,333--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:10:56,394--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:14:56,989--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:14:57,378--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:14:57,378--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:14:57,455--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:14:57,510--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:14:57,563--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:16:50,853--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:16:51,198--test_verify.py-53 --ERROR:用例---【正确的手机号】---执行失败
+2022-06-06 15:16:51,198--test_verify.py-57 --ERROR:'success' != 'OK'
+- success
++ OK
+Traceback (most recent call last):
+  File "/Users/tingting/ningmeng/zoume_project/testcases/test_verify.py", line 49, in test_verify
+    self.assertEqual(excepted['Message'], res['Message'])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != 'OK'
+- success
++ OK
+
+2022-06-06 15:16:51,471--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:16:51,749--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:16:52,010--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
+2022-06-06 15:22:06,785--test_verify.py-62 --WARNING:用例---【手机号为空】---执行通过
+2022-06-06 15:22:07,161--test_verify.py-62 --WARNING:用例---【正确的手机号】---执行通过
+2022-06-06 15:22:07,234--test_verify.py-62 --WARNING:用例---【手机号长度10位】---执行通过
+2022-06-06 15:22:07,304--test_verify.py-62 --WARNING:用例---【手机号长度12位】---执行通过
+2022-06-06 15:22:07,377--test_verify.py-62 --WARNING:用例---【手机号含有非法字符】---执行通过
